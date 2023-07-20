@@ -1,0 +1,16 @@
+#Write a script to find if a number is even or odd.
+# vi even-odd.sh
+
+
+echo "enter the num="
+read num
+if [ $((num%2)) -eq 0 ]
+then
+     echo "even number"
+else
+     echo "odd number"
+fi
+
+
+# chmod 775 even-odd.sh
+# ./even-odd.sh
