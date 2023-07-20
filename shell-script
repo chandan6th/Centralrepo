@@ -1,0 +1,13 @@
+#Q-  write a shell script using for-loop to create 100 files at a time in linux ?
+#Q-  print 1 to 100 at a time using shell scripting with for-loop ?
+
+
+# vi forloop
+
+
+#!/bin/bash
+for (( i=1; i<100; i++ ))
+do
+   echo $i
+done
+
