@@ -1,0 +1,16 @@
+# How to add, commit in local repo & How to push code and pull code from github ?
+
+
+1.  create 1 instance in aws and access this instance through MobaXterm, then go (sudo su) and create a dirrectory(dir.name= mumbai) and go inside it.
+2.  git init (directory convert into local repo)
+3.  create a file (touch filename--- put some data on this file)
+4.  git status (it list all files in your Repo)
+5.  git add .  (means if anything in the file then add them all)
+6.  git commit -m "1st commit from mumbai"
+7.  git status
+8.  git log (it tells you who is commit/ which user commit this)
+9.  git show <commit id>  (it will show all code that have you write)
+10. git remote add origin <centralgit URL/Central Repo URL>
+11. git push -u origin master (push the code in github)
+    (enter username & password)
+
