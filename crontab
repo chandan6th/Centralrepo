@@ -1,0 +1,16 @@
+#What is crontab and how to schedule a job in crontab ??	
+
+Crontab command is used to schedule a tasks.
+
+crontab -e = edit the crontab (edit or add a new jobs)
+crontab -l = list the crontab entries (show all the current jobs)
+crontab -r = remove the crontab
+
+
+1.  * = minute [0-59]
+2.  * = hour [0-23]
+3.  * = day of month [1-31]
+4.  * = month of the year [1-12]
+5.  * = day of the week [0-6]
+
+
